@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+     font-family: 'VT323', monospace;
+}
+
+h1{
+    color: white;
+    text-shadow: 3px 3px #cc6b37;
+}
+h4{
+    font-size: 3em;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 12em;
+    background-color: #A93226;
+    display: flex;
+}
+
+header img{
+    
+    margin: 1em 2em;
+    width: 10%;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+
+}
+
+.enlace{
+    margin: 0em 4em;
+}
+/*Estilos para el primer enlace*/
+.caja{
+    position: relative;
+    width: 100%;
+    border: 2px solid #222;
+    margin-top: 2em;
+    border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+}
+
+.caja a{
+    font-size: 4em;
+    color: #222;
+    text-decoration: none;
+    transition: 2s;
+   
+}
+.caja a:hover{
+    font-size: 7em;
+    color: #A93226;
+    color:transparent
+}
+.hija{
+    position: relative;
+    margin-left: 1em;
+    padding-top: 0.5em;
+    display: flex;
+}
+.prueba{
+    position: absolute;
+    height: 0em;
+    opacity:0;
+}
+.caja a:hover .prueba{
+    height: auto;
+    transition-delay: 1.3s;
+    opacity: 100;
+}
+
+
+/*Estilos para el segundo enlace*/
+.caja2{
+    position: relative;
+    width: 100%;
+    border: 2px solid #222;
+    margin-top: 2em;
+    border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+}
+
+.caja2 a{
+    font-size: 7em;
+    color: #222;
+    text-decoration: none;
+    transition: 1s;
+   
+}
+.caja2 a:active{
+    font-size: 3em;
+    padding: 8em 0em;
+    color:transparent
+}
+.prima{
+    position: relative;
+    margin-left: 1em;
+    padding-top: 0.5em;
+    display: flex;
+}
+.prueba2{
+    position: absolute;
+    margin-top: -0.6em;
+    height: 0em;
+    opacity:0;
+}
+.caja2 a:active .prueba2{
+    height: auto;
+    transition-delay: 0.9s;
+    opacity: 100;
+}
+
+/*Estilos para la caja 3*/
+.caja3{
+    position: relative;
+    width: 100%;
+    border: 2px solid #222;
+
+    border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+}
+
+.caja3 a{
+    font-size: 7em;
+    color: #222;
+    text-decoration: none;
+   
+}
+.caja3 :hover{
+    animation:rotateOutDownRight;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+
+/*------------------------------------------------------------------*/
+
+.volver{
+    position: relative;
+    width: 100%;
+    border: 2px solid #222;
+    margin-top: 2em;
+    border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+}
+
+.volver a{
+    font-size: 4em;
+    color: #222;
+    text-decoration: none;
+   
+}
+.volver a:hover{
+   
+    color: #A93226;
+    text-shadow: 3px 3px #222;
+    
+}
